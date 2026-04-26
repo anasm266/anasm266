@@ -13,6 +13,15 @@ I build projects that are more systems-heavy than standard student CRUD work: st
 | [installsentry](https://github.com/anasm266/installsentry) | Traces what `npm install` actually does: lifecycle scripts, file and network access, and canary secret reads, then maps findings onto the dependency graph. | TypeScript, Node.js, SARIF, CI |
 | [typing-race](https://github.com/anasm266/typing-race) | Real-time 2-player typing race built around share-link multiplayer, low-latency room sync, and production-style observability. | Cloudflare Workers, Durable Objects, React |
 
+## Try Projects
+
+| Project | Links |
+| --- | --- |
+| `typing-race` | [Live app](https://typing-race.pages.dev) |
+| `sentinelflow` | [Live demo](https://sentinelflow-api.onrender.com), [API docs](https://sentinelflow-api.onrender.com/docs) |
+| `any-map` | [npm package](https://www.npmjs.com/package/any-map) |
+| `installsentry` | [npm package](https://www.npmjs.com/package/installsentry) |
+
 ## Open Source
 
 - Merged PR in [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/pull/12278)
