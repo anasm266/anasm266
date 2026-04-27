@@ -1,40 +1,32 @@
 # Anas
 
-Fourth-year CS undergrad focused on TypeScript developer tooling, backend systems, supply-chain security, and real-time web apps.
+I build developer tools, security workflows, and real-time web apps that are meant to be used: CLIs, GitHub Actions, npm packages, backend systems, and live multiplayer products.
 
-I build projects that are more systems-heavy than standard student CRUD work: static analysis tools, install-time dependency tracing, GitHub-integrated backend workflows, and edge-hosted multiplayer apps.
+Currently focused on TypeScript tooling, supply-chain security, Rust CLIs, and production-style backend systems.
 
-## Featured Projects
+## Shipped Projects
 
-| Project | What it is | Stack |
+| Project | What makes it interesting | Stack / links |
 | --- | --- | --- |
-| [any-map](https://github.com/anasm266/any-map) | Static flow analysis for TypeScript `any` types. Ranks the sources causing the most type erosion and traces how they spread through a codebase. Published on npm with 235 downloads from 2026-03-27 through 2026-04-25. | TypeScript, Compiler API, CLI, npm |
-| [sentinelflow](https://github.com/anasm266/sentinelflow) | Dependency-risk control plane for GitHub repositories with policy evaluation, audit logs, background jobs, GitHub checks, and signed webhook delivery. | Fastify, PostgreSQL, React, GitHub App |
-| [installsentry](https://github.com/anasm266/installsentry) | Traces what `npm install` actually does: lifecycle scripts, file and network access, and canary secret reads, then maps findings onto the dependency graph. Published on npm with 226 downloads from 2026-03-27 through 2026-04-25. | TypeScript, Node.js, SARIF, CI |
-| [typing-race](https://github.com/anasm266/typing-race) | Real-time 2-player typing race built around share-link multiplayer, low-latency room sync, and production-style observability. | Cloudflare Workers, Durable Objects, React |
-
-## Try Projects
-
-| Project | Links |
-| --- | --- |
-| `typing-race` | [Live app](https://typing-race.pages.dev) |
-| `sentinelflow` | [Live demo](https://sentinelflow-api.onrender.com), [API docs](https://sentinelflow-api.onrender.com/docs) |
-| `any-map` | [npm package](https://www.npmjs.com/package/any-map), 235 last-month downloads |
-| `installsentry` | [npm package](https://www.npmjs.com/package/installsentry), 226 last-month downloads |
+| [typing-race](https://github.com/anasm266/typing-race) | Live 2-player typing race built around share-link multiplayer, low-latency WebSocket sync, reconnect handling, analytics, monitoring, and load testing. | Cloudflare Workers, Durable Objects, D1, React, k6 - [Live app](https://typing-race.pages.dev) |
+| [any-map](https://github.com/anasm266/any-map) | Static flow analysis for TypeScript `any` types. Traces where type erosion starts, how it spreads through a codebase, and which fixes have the biggest blast-radius reduction. | TypeScript Compiler API, graph algorithms, CLI, npm - [npm](https://www.npmjs.com/package/any-map), 246 last-month downloads |
+| [installsentry](https://github.com/anasm266/installsentry) | Supply-chain visibility for npm installs: traces lifecycle scripts, file/network access, and canary secret reads, then maps findings onto the dependency graph with HTML and SARIF reports. | TypeScript, Node.js, SARIF, CI - [npm](https://www.npmjs.com/package/installsentry), 236 last-month downloads |
+| [apibump](https://github.com/anasm266/apibump) | Rust CLI and GitHub Action that checks Python public API changes in pull requests and recommends the right SemVer bump before merge. | Rust, Python, GitHub Actions, SemVer - [action](https://github.com/anasm266/apibump) |
+| [sentinelflow](https://github.com/anasm266/sentinelflow) | Dependency-risk control plane for GitHub repositories with policy evaluation, audit logs, background jobs, GitHub checks, signed webhooks, and delivery replay. | Fastify, PostgreSQL, React, GitHub App - [demo](https://sentinelflow-api.onrender.com), [docs](https://sentinelflow-api.onrender.com/docs) |
 
 ## Open Source
 
-- Merged PR in [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/pull/12278)
-- Additional PRs in [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/pulls?q=is%3Apr+author%3Aanasm266)
-- PR in [refined-github](https://github.com/refined-github/refined-github/pull/9280)
+- Merged fix in [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/pull/12278) for `no-unnecessary-type-assertion` false positives.
+- Additional active PRs in [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/pulls?q=is%3Apr+author%3Aanasm266).
+- Open PR in [refined-github](https://github.com/refined-github/refined-github/pull/9280) restoring `esc-to-cancel` behavior on pull requests.
 
 ## Stack
 
-`TypeScript` `Node.js` `React` `Fastify` `PostgreSQL` `Cloudflare Workers` `Vitest` `Playwright` `GitHub Actions`
+`TypeScript` `Node.js` `React` `Fastify` `PostgreSQL` `Rust` `Cloudflare Workers` `Durable Objects` `Vitest` `Playwright` `GitHub Actions`
 
 ## Current Focus
 
 - developer tools and static analysis
 - backend systems with durable jobs and real persistence
 - security-oriented tooling around npm and dependency workflows
-- open-source contributions in TypeScript tooling
+- open-source contributions in large TypeScript codebases
