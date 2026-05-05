@@ -2,7 +2,7 @@
 
 # Hi, I'm Anas
 
-**Fourth-year CS · developer tools · security workflows · real-time web**
+**Developer tools · security workflows · real-time web**
 
 I build things meant to be used: CLIs, GitHub Actions, npm packages, backend systems, and live multiplayer products.
 
@@ -16,8 +16,8 @@ Currently focused on **TypeScript tooling**, **supply-chain security**, **Rust C
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anasm266&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anasm266&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+[![GitHub followers](https://img.shields.io/github/followers/anasm266?logo=github&style=for-the-badge&label=Followers&color=1a1b27&labelColor=434c5e)](https://github.com/anasm266?tab=followers)
+[![Stars across repos](https://img.shields.io/github/stars/anasm266?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&label=Stars&color=1a1b27&labelColor=434c5e)](https://github.com/anasm266?tab=repositories&q=&type=source&sort=stargazers)
 
 </div>
 
