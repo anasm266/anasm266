@@ -2,11 +2,11 @@
 
 # Hi, I'm Anas
 
-**Developer tools · security workflows · real-time web**
+**Software engineering · applied AI · developer tools · security systems**
 
-I build things meant to be used: CLIs, GitHub Actions, npm packages, backend systems, and live multiplayer products.
+I build projects where correctness, reliability, and product behavior matter: static analysis tools, runtime tracing, durable backends, real-time sync, and AI workflows with structured outputs.
 
-Currently focused on **TypeScript tooling**, **supply-chain security**, **Rust CLIs**, and **production-style backends**.
+Currently focused on **program analysis**, **supply-chain security**, **backend/platform systems**, and **applied AI engineering**. Starting to explore robotics through simulation, perception, and control.
 
 <img src="https://komarev.com/ghpvc/?username=anasm266&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 
@@ -23,15 +23,24 @@ Currently focused on **TypeScript tooling**, **supply-chain security**, **Rust C
 
 ---
 
-## Shipped projects
+## Selected projects
 
 | Project | What makes it interesting | Stack / links |
 | --- | --- | --- |
-| [typing-race](https://github.com/anasm266/typing-race) | Live 2-player typing race: share-link multiplayer, low-latency WebSocket sync, reconnect handling, analytics, monitoring, load testing. | Cloudflare Workers, Durable Objects, D1, React, k6 · [Live](https://typing-race.pages.dev) |
-| [any-map](https://github.com/anasm266/any-map) | Static flow analysis for TypeScript `any`: traces erosion, blast radius, highest-impact fixes. | TS Compiler API, graph algorithms, CLI, npm · [npm](https://www.npmjs.com/package/any-map) — 904 last-month downloads |
-| [installsentry](https://github.com/anasm266/installsentry) | Supply-chain visibility for npm: lifecycle scripts, file/network access, canary secret reads → dependency graph, HTML + SARIF. | TypeScript, Node, SARIF, CI · [npm](https://www.npmjs.com/package/installsentry) — 254 last-month downloads |
-| [apibump](https://github.com/anasm266/apibump) | Rust CLI + GitHub Action: Python public API diffs in PRs with SemVer bump hints before merge. | Rust, Python, Actions · [Action](https://github.com/anasm266/apibump) |
-| [sentinelflow](https://github.com/anasm266/sentinelflow) | Dependency-risk control plane: policies, audit logs, background jobs, GitHub checks, signed webhooks, delivery replay. | Fastify, PostgreSQL, React, GitHub App · [Demo](https://sentinelflow-api.onrender.com) · [Docs](https://sentinelflow-api.onrender.com/docs) |
+| [typing-race](https://github.com/anasm266/typing-race) | Real-time multiplayer system with server-owned race state, reconnect handling, spectator mode, analytics, monitoring, and load tests. | Cloudflare Workers, Durable Objects, D1, React, k6 · [Live](https://typing-race.pages.dev) |
+| [any-map](https://github.com/anasm266/any-map) | Program-analysis CLI that traces TypeScript `any` propagation as a graph, ranks blast radius, and supports PR diffs. | TS Compiler API, graph algorithms, CLI, npm · [npm](https://www.npmjs.com/package/any-map) |
+| [installsentry](https://github.com/anasm266/installsentry) | Runtime tracing for `npm install`: lifecycle scripts, file/network access, secret canary reads, dependency graph reports, and SARIF. | TypeScript, Node, SARIF, CI · [npm](https://www.npmjs.com/package/installsentry) |
+| [sentinelflow](https://github.com/anasm266/sentinelflow) | Supply-chain risk control plane with policy evaluation, audit logs, durable jobs, GitHub checks, and signed webhook replay. | Fastify, PostgreSQL, React, GitHub App · [Demo](https://sentinelflow-api.onrender.com) · [Docs](https://sentinelflow-api.onrender.com/docs) |
+| [apibump](https://github.com/anasm266/apibump) | Rust CLI + GitHub Action that detects Python public API changes and recommends the right SemVer bump before merge. | Rust, Python, GitHub Actions · [Action](https://github.com/anasm266/apibump) |
+| [appledger](https://github.com/anasm266/appledger) | Windows app activity recorder for file/process/network attribution, registry persistence checks, session reports, and cleanup hints. | C#, ETW, SQLite, PowerShell |
+
+---
+
+## Applied AI
+
+- Building toward public AI systems with grounded retrieval/tool use, strict schemas, deterministic guardrails, evals, and clear failure handling.
+- Private prototypes include document analysis, identity verification, review-grounded Q&A, and workflow agents.
+- Robotics is a target area; the next step is a public simulation/perception/control project with reproducible demos.
 
 ---
 
@@ -50,8 +59,11 @@ Currently focused on **TypeScript tooling**, **supply-chain security**, **Rust C
   <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img alt="Fastify" src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+  <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
   <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+  <img alt="LLM systems" src="https://img.shields.io/badge/LLM%20systems-111827?style=flat-square" />
   <img alt="Vitest" src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
   <img alt="Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
@@ -61,10 +73,11 @@ Currently focused on **TypeScript tooling**, **supply-chain security**, **Rust C
 
 ## Current focus
 
-- Developer tools and static analysis  
-- Backends with durable jobs and real persistence  
-- Security-oriented tooling around npm and dependency workflows  
-- OSS in large TypeScript codebases  
+- Developer tools, static analysis, and compiler-backed workflows
+- Backend/platform systems with durable jobs, persistence, and observability
+- Security tooling around npm, dependency risk, and runtime behavior
+- Applied AI products with structured outputs, tool use/RAG, and evals
+- Robotics simulation, perception, and control foundations
 
 ---
 
