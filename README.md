@@ -37,9 +37,8 @@ Currently focused on **TypeScript tooling**, **supply-chain security**, **Rust C
 
 ## Open source
 
-- Merged fix in [**typescript-eslint**](https://github.com/typescript-eslint/typescript-eslint/pull/12278) — `no-unnecessary-type-assertion` false positives.
-- Active typescript-eslint PRs: [#12280](https://github.com/typescript-eslint/typescript-eslint/pull/12280) (awaiting review), [#12281](https://github.com/typescript-eslint/typescript-eslint/pull/12281) (changes requested).
-- Merged [**refined-github**](https://github.com/refined-github/refined-github/pull/9280) — restore `esc-to-cancel` on pull requests.
+- [**typescript-eslint**](https://github.com/typescript-eslint/typescript-eslint/pull/12278): fixed false positives in `no-unnecessary-type-assertion`.
+- [**refined-github**](https://github.com/refined-github/refined-github/pull/9280): restored `esc-to-cancel` behavior on pull request pages.
 
 ---
 
