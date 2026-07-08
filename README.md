@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Static analysis, runtime tracing, real-time systems, robot learning" width="100%" />
-
 # Anas
 
 **MS Robotics & Autonomous Systems (AI) @ Arizona State University — Dec 2027**
@@ -18,7 +16,6 @@ static analysis, runtime tracing, real-time backends — and I'm now applying th
 
 - [**typescript-eslint**](https://github.com/typescript-eslint/typescript-eslint) — two merged fixes for `no-unnecessary-type-assertion` false positives ([#12278](https://github.com/typescript-eslint/typescript-eslint/pull/12278), [#12281](https://github.com/typescript-eslint/typescript-eslint/pull/12281)), one more in review
 - [**refined-github**](https://github.com/refined-github/refined-github) — restored `esc-to-cancel` on pull request pages ([#9280](https://github.com/refined-github/refined-github/pull/9280))
-- [**nilmdts/vdb**](https://github.com/nilmdts/vdb) — ongoing fixes and features for a nonprofit volunteer management platform (1 merged, 4 in review)
 
 ## Selected work
 
