@@ -26,6 +26,4 @@ static analysis, runtime tracing, real-time backends — and I'm now applying th
 
 More in the repos: [glint](https://github.com/anasm266/glint) (Rust/Tauri tray overlay for live AI coding sessions), [sentinelflow](https://github.com/anasm266/sentinelflow) (dependency-risk control plane), [appledger](https://github.com/anasm266/appledger) (Windows app activity attribution), [subsurface](https://github.com/anasm266/subsurface) (subtitle-intercepting Chrome extension).
 
-## Now
 
-Ramping on the robot learning stack — LeRobot, MuJoCo, LIBERO — and building toward a cross-policy evaluation harness for manipulation policies (ACT, Diffusion Policy, SmolVLA): success rates with confidence intervals, failure taxonomies, and latency profiles instead of demo videos.
