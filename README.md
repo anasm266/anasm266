@@ -14,6 +14,7 @@ static analysis, runtime tracing, real-time backends — and I'm now applying th
 
 ## Open source
 
+- [**LeRobot**](https://github.com/huggingface/lerobot) — fixed RoboCasa environment task horizons ([#4037](https://github.com/huggingface/lerobot/pull/4037))
 - [**typescript-eslint**](https://github.com/typescript-eslint/typescript-eslint) — two merged fixes for `no-unnecessary-type-assertion` false positives ([#12278](https://github.com/typescript-eslint/typescript-eslint/pull/12278), [#12281](https://github.com/typescript-eslint/typescript-eslint/pull/12281)), one more in review
 - [**refined-github**](https://github.com/refined-github/refined-github) — restored `esc-to-cancel` on pull request pages ([#9280](https://github.com/refined-github/refined-github/pull/9280))
 
